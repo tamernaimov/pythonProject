@@ -4,8 +4,10 @@
 #except Exception as e:
     # Code that runs if an exception occurs
     #print(f"An error occurred: {e}")
+from fileinput import filename
 from secrets import choice
 from sys import excepthook
+
 
 
 def add(num1, num2):
@@ -47,4 +49,16 @@ def calc():
         print(f"The result of {num1} * {num2} = {result}")
 
 # Call the calculator function
-calc()
+#calc()
+
+def readFromFiles():
+    try:
+        with open("../mama.txt", "r")as file:
+            content = file.read()
+
+    except FileNotFoundError as e:
+        print(e)
+    else:
+        print(content)
+
+readFromFiles()
