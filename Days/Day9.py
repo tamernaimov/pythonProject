@@ -11,11 +11,9 @@ from sys import excepthook
 
 
 def add(num1, num2):
-    """Function to add two numbers."""
     return num1 + num2
 
 def multiply(num1, num2):
-    """Function to multiply two numbers."""
     return num1 * num2
 
 def calc():
@@ -24,7 +22,6 @@ def calc():
     print("1: Addition")
     print("2: Multiplication")
 
-    # Get user input for the operation
     choice = input("Enter 1 or 2: ")
 
     # Validate the choice
@@ -53,7 +50,7 @@ def calc():
 
 def readFromFiles():
     try:
-        with open("../mama.txt", "r")as file:
+        with open("../otherFiles/mama.txt", "r")as file:
             content = file.read()
 
     except FileNotFoundError as e:
