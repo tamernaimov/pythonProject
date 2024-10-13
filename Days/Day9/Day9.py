@@ -50,7 +50,7 @@ def calc():
 
 def readFromFiles():
     try:
-        with open("../otherFiles/mama.txt", "r")as file:
+        with open("../../otherFiles/mama.txt", "r")as file:
             content = file.read()
 
     except FileNotFoundError as e:
