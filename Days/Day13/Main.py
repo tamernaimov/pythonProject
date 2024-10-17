@@ -13,3 +13,7 @@ def vehicle_sound(vehicle):
     vehicle.start_engine()
 
 vehicle_sound(motorcycle)
+motorcycle.parent_method()
+motorcycle.test_method()
+motorcycle.parent_method_with_vars()
+

@@ -9,3 +9,6 @@ class Motorcycle(Vehicle):
     def start_engine(self):
         super().start_engine()
         print("Motorcycle engine Started!")
+
+    def test_method(self):
+        print(self.make)
