@@ -19,14 +19,14 @@ def multiply(num1, num2):
 def calc():
     print("Welcome to the calculator!")
     print("Choose an operation:")
-    print("try1: Addition")
+    print("exercise1: Addition")
     print("try2: Multiplication")
 
-    choice = input("Enter try1 or try2: ")
+    choice = input("Enter exercise1 or try2: ")
 
     # Validate the choice
-    if choice not in ['try1', 'try2']:
-        print("Invalid choice! Please enter try1 for addition or try2 for multiplication.")
+    if choice not in ['exercise1', 'try2']:
+        print("Invalid choice! Please enter exercise1 for addition or try2 for multiplication.")
         return  # Exit the function if the choice is invalid
 
     # Get user input for the numbers
@@ -38,7 +38,7 @@ def calc():
         return # Exit the function if input is invalid
 
     # Perform the selected operation
-    if choice == 'try1':
+    if choice == 'exercise1':
         result = add(num1, num2)
         print(f"The result of {num1} + {num2} = {result}")
     elif choice == 'try2':

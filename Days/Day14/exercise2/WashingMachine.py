@@ -1,5 +1,5 @@
-from Days.Days14.try2.Appliance import Appliance
-from Days.Days14.try2.Brand import  Brand
+from Days.Day14.try2.Appliance import Appliance
+from Days.Day14.try2.Brand import  Brand
 
 class WashingMachine(Appliance,Brand):
     def turn_on(self):

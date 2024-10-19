@@ -1,4 +1,4 @@
-from Days.Days14.try1.Car import Car
+from Days.Day14.try1.Car import Car
 
 car = Car("make","model", 2005)
 print(car.get_make())

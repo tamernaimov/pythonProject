@@ -1,7 +1,7 @@
-from Days.Days14.try3.Electronics import Electronics
-from Days.Days14.try3.Electronicsabs import Electronicstab
+from Days.Day14.try3.Electronics import Electronics
+from Days.Day14.try3.Electronicsabs import Electronicstab
 
-class Phone(Electronicstab,Electronics):
+class Tablet(Electronicstab,Electronics):
     def __init__(self,year,model):
         super().__init__(year,model)
 
