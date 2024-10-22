@@ -1,0 +1,25 @@
+SOLID:
+S: Single Responsobility Principle (SPR)
+a class has ONE responsobility (for example one does the task the other prints it)
+
+------------------------------------------
+
+O: Open/Closed Principle
+entities(classes, modules, functions) should be open for extension, but closed for modification
+
+------------------------------------------
+
+L: Liskov Substitution Principle
+so basically only extend a subclass if you are fully sure it can replace
+try this relation: "is-a", be sure methods suit them and whatnot
+for example a penguin is a bird, but most birds fly. make a parent class Flying bird and a class just a bird.
+
+------------------------------------------
+
+I: Interface Segregation Principle(ISP)
+Instead of creating large, general-purpose interfaces, create smaller, more specific ones.
+This ensures that classes don’t implement methods they don’t need.
+------------------------------------------
+
+D: Dependency Inversion Principle
+High-level modules should not depend on low-level modules. Both should depend on abstractions.

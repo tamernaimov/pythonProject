@@ -1,0 +1,14 @@
+Exercise 1 (SRP and OCP):
+Create a class Payment that handles a basic payment process and a PaymentPrinter that prints payment receipts.
+ Then, extend the payment class to handle different types of payments (like credit card and cash).
+
+
+
+Exercise 2 (LSP and ISP):
+Create a Worker class with work and eat methods. Make Human and Robot classes implement the worker class,
+ but robots should only implement the work method, while humans implement both.
+
+Exercise 3 (DIP):
+Create a UserRepository that fetches user data. Use an abstraction layer (interface or abstract class)
+to decouple UserService from the concrete implementation of UserRepository.
+
