@@ -1,0 +1,11 @@
+Requirements:
+There are two types of employees:
+
+Full-Time Employees: Paid a fixed salary per month.
+Hourly Employees: Paid based on the number of hours they work and their hourly rate.
+The system should calculate the salary for each employee.
+
+In the future, there might be additional employee types (e.g., Commission-Based Employees or Contract Workers) with different payroll structures. So the system should be open to extension but closed to modification.
+
+Each employee should be able to print their salary information.
+
