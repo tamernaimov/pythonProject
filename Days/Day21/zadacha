@@ -1,0 +1,25 @@
+Exercise: Online Shopping System
+Objective: Design a simple online shopping system using OOP principles and SOLID design principles.
+
+Requirements:
+Products:
+
+Create a Product class with attributes such as name, price, and stock.
+Implement a method to display product details.
+
+Shopping Cart:
+
+Create a ShoppingCart class that allows users to add, remove, and view products.
+The cart should keep track of the total price and handle the quantities of products.
+Payment Processing:
+
+Define an abstract class Payment with a method process_payment(amount).
+Create two subclasses: CreditCardPayment and PayPalPayment that implement the process_payment method.
+
+Order:
+
+Create an Order class that aggregates the ShoppingCart and handles payment processing.
+The Order class should use a Payment object to process payments.
+Bonus Challenge:
+
+Implement an Inventory class that manages products and their stock. It should have methods to add or remove stock, and check stock levels for products.

@@ -1,5 +1,5 @@
-from Days.Day14.try2.Appliance import Appliance
-from Days.Day14.try2.Brand import  Brand
+from Days.Day14.exercise2.Appliance import Appliance
+from Days.Day14.exercise2.Brand import  Brand
 
 class Refrigerator(Appliance,Brand):
     def __init__(self,year):

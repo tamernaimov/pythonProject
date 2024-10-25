@@ -1,5 +1,5 @@
-from Days.Day14.try3.Electronics import Electronics
-from Days.Day14.try3.Electronicsabs import Electronicstab
+from Days.Day14.exercise3.Electronics import Electronics
+from Days.Day14.exercise3.Electronicsabs import Electronicstab
 
 class Phone(Electronicstab,Electronics):
     def __init__(self,year,model):
